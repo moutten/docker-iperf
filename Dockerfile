@@ -1,8 +1,8 @@
-FROM ubuntu:14.04
+FROM gliderlabs/alpine
 MAINTAINER Matt Outten <matt@outten.net>
 
-RUN apt-get update && \
-    apt-get -y install iperf
+RUN apk --update add iperf
 
 EXPOSE 5001
-CMD ["/usr/bin/iperf","-s"]
+ENTRYPOINT ["/usr/bin/iperf"]
+CMD ["-s"]

@@ -11,7 +11,7 @@ following commands:
 ```bash
 git clone git@github.com:moutten/docker-iperf.git
 cd docker-iperf
-docker build -t iperf3.0 .
+docker build -t iperf3.1 .
 ```
 
 ### Pulling from docker hub
@@ -20,7 +20,7 @@ If you just want to obtain the image from the docker registry, you can use the
 following command:
 
 ```bash
-docker pull moutten/iperf:3.0
+docker pull moutten/iperf:3.1
 ```
 
 ### Running the image
@@ -28,7 +28,7 @@ docker pull moutten/iperf:3.0
 In order to run the iperf server command in daemonized mode, use the following:
 
 ```bash
-docker run -d -p 5201:5201 moutten/iperf:3.0
+docker run -d -p 5201:5201 moutten/iperf:3.1
 ```
 
 At that point, you can use your docker server as an iperf server to begin

@@ -1,5 +1,7 @@
 # docker: iperf
 
+[![](https://badge.imagelayers.io/moutten/iperf:latest.svg)](https://imagelayers.io/?images=moutten/iperf:latest 'Get your own badge on imagelayers.io')
+
 This is a docker image to run the [iperf commandline tool](https://iperf.fr/)
 for benchmarking network performance.
 

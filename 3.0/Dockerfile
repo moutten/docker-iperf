@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Matt Outten <matt@outten.net>
+LABEL maintainer="Matt Outten <matt@outten.net>"
 
 RUN apt-get -q update && \
     apt-get install -qy iperf3 && \

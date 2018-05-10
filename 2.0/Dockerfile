@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine
-MAINTAINER Matt Outten <matt@outten.net>
+LABEL maintainer="Matt Outten <matt@outten.net>"
 
 RUN apk --update add iperf
 
